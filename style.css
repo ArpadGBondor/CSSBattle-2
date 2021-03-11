@@ -1,0 +1,43 @@
+body {
+  background-color: #171d23;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  background-color: #62374e;
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.body {
+  margin: 8px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: relative;
+}
+
+.container * {
+  background: #62374e;
+  position: absolute;
+}
+.container i i {
+  padding: 25px;
+  background: #fdc57b;
+  top: 42px;
+  left: 42px;
+}
+.container i i + i {
+  left: 292px;
+}
+.container i + i i {
+  top: 192px;
+}
